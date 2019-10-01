@@ -12,7 +12,7 @@ class GroupsTableSeeder extends Seeder
     public function run()
     {
         DB::table('groups')->insert([
-            'name' => 'Jack\'s Crew'
+            'name' => 'Joe\'s Crew'
         ]);
     }
 }
