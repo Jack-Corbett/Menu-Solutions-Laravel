@@ -40,12 +40,12 @@
 
             <div class="center border-top">
                 <div class="padding-24">
-                    {!! Form::submit('Register', ['class' => 'btn hover-dark-grey animate-opacity theme round', 'style' => 'width:25%']) !!}
+                    {!! Form::submit('Register', ['class' => 'btn hover-dark-grey animate-opacity theme round']) !!}
                 </div>
 
                 <div class="margin-bottom">
                     <span>Already have an account?</span><br>
-                    <a class="btn dark-grey round" href="{{ route('login') }}" style="width:20%">Login</a>
+                    <a class="btn dark-grey round" href="{{ route('login') }}">Login</a>
                 </div>
             </div>
         {!! Form::close() !!}

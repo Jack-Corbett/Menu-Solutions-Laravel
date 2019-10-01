@@ -19,7 +19,7 @@
             <br>
 
             <div class="center border-top padding-16">
-                {!! Form::submit('Add', ['class' => 'btn hover-dark-grey animate-opacity theme round', 'style' => 'width:20%']) !!}
+                {!! Form::submit('Add', ['class' => 'btn hover-dark-grey animate-opacity theme round']) !!}
             </div>
         {!! Form::close() !!}
 
